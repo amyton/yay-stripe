@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-
+  # Run the pages controller and calling the home method
   root "pages#home"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
